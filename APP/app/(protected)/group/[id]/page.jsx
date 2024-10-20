@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { User, Users, Info, Check, X } from 'lucide-react';
 // import { useRouter } from 'next/navigation'; 
@@ -13,13 +12,6 @@ const WhatsAppGroup = async({params}) => {
   console.log('params',params);
   const id=params?.id;
  
-
-  
-
- 
-  // const router = useRouter();
-
-
   const grp=await IndividualGroup(id);
   console.log('grp',grp);
   const admin = await getUserById(grp.adminId);
