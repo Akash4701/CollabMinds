@@ -44,7 +44,7 @@ const FriendRequestsPage = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const session = useCurrentUser();
-  const receiverId ="66ffbe8d8c71a5afa10f17e5"; // Get the logged-in user's session
+  const receiverId =session?.id; // Get the logged-in user's session
 
   const fetchFriendRequests = async () => {
     try {
