@@ -1,8 +1,11 @@
 CollabMinds
+
 Project Title:
+
 CollabMinds: A Platform for Building Diverse, Effective Teams
 
 Project Description:
+
 CollabMinds is a collaborative platform designed to help users find and connect with team members with diverse skillsets for group projects, hackathons, open-source contributions, startups, and more. Users can create profiles, showcase their skills, search for teammates, and collaborate through an integrated suite of tools such as Trello-like task management, leaderboards, and skill badges.
 
 Installation Steps:
@@ -18,9 +21,11 @@ Install the necessary dependencies:
 npm install
 
 npm run dev
+
 For the backend, navigate to the server directory:
 
 cd server
+
 Run the server using nodemon:
 
 nodemon server.js
