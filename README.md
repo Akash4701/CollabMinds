@@ -22,13 +22,13 @@ npm install
 
 npm run dev
 
-For the backend, navigate to the server directory:
+For the chat server, navigate to the server directory:
 
 cd server
 
-Run the server using nodemon:
+Run the server:
 
-nodemon server.js
+npm run start
 
 Unique Selling Points (USP) of TeamBuilder:
 
